@@ -13,7 +13,10 @@
     * If you only want a message to be shown to existing users of a website, or only new users
 
 5. What is the Ruby syntax for an if statement?
-  * `if condition
-        do this thing
-      end`
-  * `if condition then do this thing end`
+  ```ruby
+  if condition
+    do this thing
+  end
+  ```
+`if condition then do this thing end`
+`do this if condition`
