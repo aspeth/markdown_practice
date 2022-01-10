@@ -33,7 +33,8 @@
 6. How do you add multiple conditions to an if statement?
   * To add multiple conditions to an if statement, you can use the logical AND ( && ) as well as the logical OR ( || )
     * && will only evaluate as true if both conditions are true
-    * || will evaluate as true if either or both condition is true
+    * || will evaluate as true if either condition is true
+      * it will also evaluate as true if both conditions are true, but Ruby uses short-circuit evaluation, so if it finds the first condition is true, it won't bother to look at the second because the result is true either way
   ```ruby
   if condition1 && condition2
     do this thing
